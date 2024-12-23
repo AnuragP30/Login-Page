@@ -1,0 +1,63 @@
+<html>
+<head>
+ <script src="login.js"></script>
+
+<style>
+    span{
+    padding-left:22px;
+    color:red
+    }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+<form name="f1">
+<h1 class="c1">Login</h1>
+<!-- name -->
+<div class="input-box">
+<input type="text" name="uname" id="uname" placeholder="Username">
+<i class='bx bxs-user'></i>
+<span id="umsg"></span>
+<!-- email -->
+</div>
+<div class="input-box"> 
+<input type="text" name="email" id="email"placeholder="Email">
+<i class='bx bx-envelope' ></i>
+<span id="emsg"></span> 
+<!-- password  -->
+</div>
+<div class="input-box">
+<input type="password" name="password" id="pass" placeholder="Password">
+<i class='bx bxs-lock-alt'></i>
+<span id="pmsg"></span>
+</div>
+<!-- mobile number -->
+<div class="input-box">
+<input type="text" name="mob" id="mob" placeholder="Mobile">
+<i class='bx bxs-mobile'></i>
+<span id="mnmsg"></span>
+</div>
+
+
+<div class="terms">
+<label><input type="checkbox" name="check2"><a href="#">Terms and Condition</a></label>
+<span id="check"></span>
+<a href="#">Forgot Passsword</a>
+</div>
+
+<button type="submit" class="btn"  onclick="return fun()">Login</button>
+
+
+<div class="reg">
+  <p>Don't have an account? <a href="#">Register</a></p>
+  </div>
+
+</form>
+</div>
+</body>
+<head>
+<link rel="stylesheet" href="formstyl.css"/>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+</html>
